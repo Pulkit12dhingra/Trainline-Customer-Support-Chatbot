@@ -23,8 +23,8 @@ COPY . /app
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose necessary ports (11434 for Ollama, 8501 for Streamlit)
-EXPOSE 11434 8501
+# Expose necessary ports (5000 for Ollama, 8000 for Streamlit)
+EXPOSE 5000 8000
 
 # Start Ollama and Streamlit
-CMD ollama serve & python3 -m streamlit run test.py --server.port 8501 --server.address 0.0.0.0
+CMD ollama serve & python3 -m streamlit run test.py --server.port 8000 --server.address 0.0.0.0

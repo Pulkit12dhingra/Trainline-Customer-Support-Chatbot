@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "intent": "refund_eligibility",
+      "patterns": [
+        "Can I get a refund for my ticket?",
+        "Which tickets are refundable?",
+        "What tickets can be refunded?",
+        "Are mobile tickets refundable?",
+        "Can I refund my SplitSave tickets?"
+      ],
+      "responses": [
+        "Flexible tickets (Off-Peak, Super Off-Peak, and Anytime tickets) can be refunded online for a fee. Advance Single tickets cannot be refunded but can be changed. SplitSave follows similar rules – Flexible tickets can be refunded, while Advance Single tickets can only be changed. If you have a mix, all tickets can be changed."
+      ]
+    },
+    {
+      "intent": "refund_process",
+      "patterns": [
+        "How do I request a refund?",
+        "How can I apply for a refund?",
+        "What is the process to get a ticket refund?",
+        "Where can I request a refund?",
+        "Do I need to return my paper ticket for a refund?"
+      ],
+      "responses": [
+        "If you have an account, go to 'My Bookings' on our website or app, select your booking, and click 'Refund my tickets'. If you don’t have an account, find your confirmation email and click ‘Manage booking’. Paper tickets may need to be returned before a refund is processed. For season tickets, refunds must be requested via a refund application form. Refunds for uncollected tickets will be processed automatically."
+      ]
+    },
+    {
+      "intent": "refund_fees",
+      "patterns": [
+        "What are the refund fees?",
+        "How much will I be charged for a refund?",
+        "Is there a fee for refunding a ticket?",
+        "Are there different refund fees for different ticket prices?"
+      ],
+      "responses": [
+        "Refund fees vary based on ticket price:\n        - Up to £1.99: No fee\n        - £2 to £2.99: £1.00\n        - £3 to £3.99: £1.50\n        - £4 to £4.99: £2.00\n        - £5 to £5.99: £3.00\n        - £6 to £6.99: £4.00\n        - Over £7: £5.00\n        If you bought your ticket via the contact center, a set £5 fee applies. Exchange fees may apply depending on the ticket type."
+      ]
+    },
+    {
+      "intent": "delay_compensation",
+      "patterns": [
+        "Can I get compensation for a delayed train?",
+        "What is the compensation policy for train delays?",
+        "How do I claim Delay Repay?"
+      ],
+      "responses": [
+        "Most train operators offer Delay Repay compensation based on delay duration:\n        - 15-29 min delay: 25% refund (not all operators offer this)\n        - 30-59 min delay: 50% refund\n        - 60-119 min delay: 100% refund\n        - 120+ min delay: 100% refund\n        Check with your train operator for specific policies."
+      ]
+    },
+    {
+      "intent": "missed_connection",
+      "patterns": [
+        "What happens if I miss my connection due to a delay?",
+        "Can I take the next available train if I miss my connection?",
+        "Will I get compensation if I miss my connection?"
+      ],
+      "responses": [
+        "If you miss your connection due to a delay, you can usually take the next available train with the same operator. Eurostar and Railteam alliance members offer the HOTNAT (Hop On The Next Available Train) guarantee. Speak to staff at the station for assistance."
+      ]
+    },
+    {
+      "intent": "name_change",
+      "patterns": [
+        "Can I change the name on my train ticket?",
+        "How do I correct a spelling mistake on my ticket?",
+        "Can I transfer my ticket to someone else?"
+      ],
+      "responses": [
+        "Name changes depend on the operator. Eurostar and most European train operators do not allow name changes. Some operators like Trenitalia and iryo allow name changes via their website or by contacting customer service. If you've made a minor spelling mistake, it may be accepted by staff with valid ID."
+      ]
+    },
+    {
+      "intent": "pet_travel",
+      "patterns": [
+        "Can I take my pet on the train?",
+        "Are pets allowed on Eurostar?",
+        "Do I need to buy a ticket for my pet?"
+      ],
+      "responses": [
+        "Pet policies vary by operator:\n        - UK National Rail: Small pets can travel for free, larger pets require a ticket.\n        - Eurostar: Only registered assistance dogs are allowed.\n        - SNCF & TGV Lyria: Small pets (under 6kg) require a carrier; larger pets require a paid ticket.\n        - Deutsche Bahn: Small pets travel free; larger pets require a pet fare and a muzzle.\n        - Renfe: Small pets allowed with a ticket; large pets not permitted.\n        Check your specific train operator’s website for more details."
+      ]
+    },
+    {
+      "intent": "bike_travel",
+      "patterns": [
+        "Can I take my bike on the train?",
+        "Do I need to reserve a space for my bike?",
+        "What are the bike policies for European trains?"
+      ],
+      "responses": [
+        "Bike policies depend on the operator:\n        - UK National Rail: Some trains require reservations for bikes.\n        - Eurostar: Folded bikes under 85cm allowed; full-size bikes require pre-booking with Eurostar luggage service.\n        - Deutsche Bahn: Some trains allow bikes with a reservation and bike ticket.\n        - Renfe: Bikes allowed on long-distance trains if folded or dismantled.\n        Check your train operator's bike policy before traveling."
+      ]
+    },
+    {
+      "intent": "seat_reservation",
+      "patterns": [
+        "Can I reserve a seat on my train?",
+        "How do I change my seat reservation?",
+        "Do I need to pay for a seat reservation?"
+      ],
+      "responses": [
+        "Seat reservations depend on the train operator:\n        - Advance tickets come with reserved seats.\n        - Flexible tickets (Off-Peak, Super Off-Peak, Anytime) do not guarantee a reserved seat.\n        - Some European trains require separate seat reservations.\n        If you want to change your seat, check your train operator's website for availability."
+      ]
+    }
+  ]
+}

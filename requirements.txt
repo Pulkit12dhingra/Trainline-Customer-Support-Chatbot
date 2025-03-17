@@ -3,3 +3,4 @@ ollama
 langchain
 faiss-cpu
 sentence-transformers
+langchain-community

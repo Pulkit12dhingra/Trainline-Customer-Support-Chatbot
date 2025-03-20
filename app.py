@@ -1,12 +1,35 @@
 import streamlit as st
+
+# Set the page title and favicon FIRST before any Streamlit components
+st.set_page_config(page_title="Trainline Helpdesk Chatbot", page_icon="🚆")
+
 import time
 import json
 import ollama
 from langchain.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain.schema import Document
+
+# Apply custom CSS for green background and white title
+st.markdown(
+    """
+    <style>
+        body {
+            background-color: #2E8B57; /* Green background */
+        }
+        .main {
+            background-color: #2E8B57; /* Green background */
+        }
+        h1 {
+            color: white !important; /* White title */
+            text-align: center;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Load intents from intents.json
 def load_intents():
@@ -99,8 +122,12 @@ def check_intents(user_input):
             return response
     return None
 
+
+# Add an image header
+st.image("statics/trainline_image.png", use_container_width=True)
+
 # Streamlit UI
-st.title("🔍 RAG Chatbot (General Chat + Train Queries)")
+st.title("🚆 Trainline Helpdesk Chatbot")
 
 # Initial bot message
 if "conversation_started" not in st.session_state:
@@ -142,3 +169,5 @@ if prompt:
                 # Display response
                 with st.chat_message("assistant"):
                     st.write(stream_Data(response))
+
+# Run with: python -m streamlit run app.py

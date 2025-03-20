@@ -1,8 +1,9 @@
 # Trainline-Customer-Support-Chatbot
-This projct is built on the FAQ data of a TrainLine Application that allows the users to book affordable train tickets.
 
+(Note:- I was not able to deploy this project to any open source free platforms thus I request you to view this video explaining about the structure and approach that I took to develop this project.
 <a href="https://youtu.be/Sm01LUBx0rg" target="_blank" rel="noopener noreferrer">Watch the video description of this project on YouTube</a>
-
+)
+This projct is built on the FAQ data of a TrainLine Application that allows the users to book affordable train tickets.
 
 In case the user face any issue, they have to go thorugh the FAQ documents that can sometimes be tricky. This chatbot helps the user to clarify thier issue without stuck in google searches and going through extensive documentations.
 
@@ -27,3 +28,5 @@ Following the data Extraction, we are using Ollama, Langchains to build a RAG pi
 
 ## Frontend
 -  The front end is build on Streamlit
+
+Thank You !!

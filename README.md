@@ -1,6 +1,6 @@
 # Trainline-Customer-Support-Chatbot
 
-(**Note**:- I was not able to deploy this project to any open source free platforms thus I request you to view this video explaining about the structure and approach that I took to develop this project.
+(**Note**:- Since the project uses LLM which is considerabley more space consuming, I was not able to deploy this project to any open source free platforms. Thus I request you to view this video explaining about the structure and approach that I took to develop this project.
 <a href="https://youtu.be/Sm01LUBx0rg" target="_blank" rel="noopener noreferrer">Watch the video description of this project on YouTube</a>)
 
 

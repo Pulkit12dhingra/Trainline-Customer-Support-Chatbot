@@ -1,7 +1,6 @@
 # Trainline-Customer-Support-Chatbot
 This projct is built on the FAQ data of a TrainLine Application that allows the users to book affordable train tickets.
 
-[Watch the video description of this project on YouTube](https://youtu.be/Sm01LUBx0rg)
 <a href="https://youtu.be/Sm01LUBx0rg" target="_blank" rel="noopener noreferrer">Watch the video description of this project on YouTube</a>
 
 
